@@ -1,0 +1,6 @@
+[submodule "VarQi-Internal"]
+	path = VarQi-Internal
+	url = https://github.com/BAX-IoT/VarQI.git
+[submodule "VarQi-PreRegistration"]
+	path = VarQi-PreRegistration
+	url = https://github.com/BAX-IoT/VarQI-PreRegistration.git
