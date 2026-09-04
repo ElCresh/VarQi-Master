@@ -48,6 +48,7 @@ Versionati nella repo monorepo: `CLAUDE.md`, `README.md` e `docs/claude/`. Il re
 ## Convenzioni cross-cutting
 
 - **Git lo gestisce l'utente.** Claude non esegue **mai** comandi git che cambiano stato (`add`, `commit`, `push`, `branch`, `checkout`, merge, reset), in nessuna delle tre repo, senza richiesta esplicita. I comandi git di sola lettura (`status`, `diff`, `log`) sono ammessi. Ai punti naturali di commit si segnala a testo un "suggested commit point", non lo si esegue.
+- **Nessun trailer di attribuzione nei commit**: mai `Co-Authored-By: Claude ...`, mai link di sessione, mai "Generated with Claude Code". Il messaggio di commit contiene solo la descrizione del cambiamento. Vale anche per le descrizioni di PR.
 - **Sui submodule non si committa mai**, nemmeno se autorizzati a committare in root: si lascia la working copy modificata e si riporta cosa è cambiato. Solo un'autorizzazione esplicita dell'utente, sotto-repo per sotto-repo e volta per volta, cambia questa regola.
 - **Commenti nel codice sempre in inglese**, in entrambi i sotto-progetti, anche quando la conversazione è in italiano. La spiegazione discorsiva resta in italiano, il codice no.
 - **Piani salvati**: prima di ripianificare da zero, consultare `docs/superpowers/plans/` e la memoria di progetto. Se esiste già un piano approvato, si riparte da quello.
