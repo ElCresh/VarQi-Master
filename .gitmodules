@@ -4,3 +4,6 @@
 [submodule "VarQi-PreRegistration"]
 	path = VarQi-PreRegistration
 	url = https://github.com/BAX-IoT/VarQI-PreRegistration.git
+[submodule "VarQi-Display-TTS"]
+	path = VarQi-Display-TTS
+	url = git@github.com:BAX-IoT/VarQi-Display-TTS.git
